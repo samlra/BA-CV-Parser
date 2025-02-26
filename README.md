@@ -1,4 +1,4 @@
-# SamiraParser - CV Analysis Tool for Energy Industry
+# CV Analysis Tool for Energy Industry
 
 SamiraParser is an AI-powered CV analysis tool specifically designed for the energy industry. It evaluates candidate CVs against job requirements and provides detailed matching scores and insights.
 
