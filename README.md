@@ -13,12 +13,14 @@ SamiraParser is an AI-powered CV analysis tool specifically designed for the ene
 ## Technical Stack
 
 ### Backend
+
 - FastAPI (Python)
 - OpenAI GPT-3.5 via OpenRouter API
 - spaCy for NLP processing
 - PyPDF2 for PDF text extraction
 
 ### Frontend
+
 - React
 - Material-UI
 - Axios for API communication
@@ -26,18 +28,22 @@ SamiraParser is an AI-powered CV analysis tool specifically designed for the ene
 ## Installation
 
 ### Prerequisites
+
 - Python 3.8+
 - Node.js 14+
 - npm or yarn
 
 ### Backend Setup
+
 1. Clone the repository
+
    ```
    git clone https://github.com/samlra/BA-CV-Parser.git
    cd BA-CV-Parser
    ```
 
 2. Create and activate a virtual environment
+
    ```
    python -m venv venv
    # On Windows
@@ -47,16 +53,19 @@ SamiraParser is an AI-powered CV analysis tool specifically designed for the ene
    ```
 
 3. Install dependencies
+
    ```
    pip install -r requirements.txt
    ```
 
 4. Install the German language model for spaCy
+
    ```
    python -m spacy download de_core_news_sm
    ```
 
 5. Create a `.env` file with your OpenRouter API key
+
    ```
    OPENROUTER_API_KEY=your_api_key_here
    ```
@@ -67,12 +76,15 @@ SamiraParser is an AI-powered CV analysis tool specifically designed for the ene
    ```
 
 ### Frontend Setup
+
 1. Navigate to the frontend directory
+
    ```
    cd frontend
    ```
 
 2. Install dependencies
+
    ```
    npm install
    # or
@@ -80,6 +92,7 @@ SamiraParser is an AI-powered CV analysis tool specifically designed for the ene
    ```
 
 3. Start the development server
+
    ```
    npm start
    # or
@@ -115,4 +128,4 @@ This project is proprietary and confidential.
 
 ## Contact
 
-For questions or support, please contact [your-email@example.com]. 
+For questions or support, please contact [your-email@example.com].
